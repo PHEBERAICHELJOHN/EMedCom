@@ -5,66 +5,34 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="R_CLASS_CHANGE"
     plugin-version="3.3.1"
-    timestamp="1550502681443"
+    timestamp="1550857049096"
     token="-5954063836022258870"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="183" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="5" />
+        duration="0" />
     <task
         name="verifier"
-        duration="1" />
+        duration="0" />
 
     <artifact
         location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
         type="SPLIT" />
-    <artifact
-        location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1550501085680"
-        verifier="COLD_SWAP_REQUESTED" >
+        timestamp="1550851933069"
+        verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
             location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
@@ -73,16 +41,31 @@
             location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
             location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
@@ -90,26 +73,37 @@
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="R_CLASS_CHANGE"
-        timestamp="1550502681443"
+        ir-eligibility="CLASS_ADDED"
+        timestamp="1550855891832"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
             location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/instant-run-apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1550857049096"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/resources/instant-run/debug/resources-debug.apk"
             type="SPLIT" />
     </build>
 

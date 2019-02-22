@@ -9,7 +9,7 @@ public class MainActivity extends AppCompatActivity {
 
     /*Splash Screen */
 
-    private static int SPLASH_TIME_OUT=7000;
+    private static int SPLASH_TIME_OUT=3000;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
