@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "618320744550",
+    "firebase_url": "https://emedcom-9a28d.firebaseio.com",
+    "project_id": "emedcom-9a28d",
+    "storage_bucket": "emedcom-9a28d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:618320744550:android:7a4f70afd56e33d0",
+        "android_client_info": {
+          "package_name": "com.example.emedcom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "618320744550-kh3veqfnrcbsnl171b6gv10ggu349v1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.emedcom",
+            "certificate_hash": "399ff010862f37326c8932ca912820e63c856525"
+          }
+        },
+        {
+          "client_id": "618320744550-pni63m8usal4b125hdc8nvgcacujmbu8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAnOhrYIeb4YpCFT-kLinW7letFjSkKCtM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "618320744550-pni63m8usal4b125hdc8nvgcacujmbu8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

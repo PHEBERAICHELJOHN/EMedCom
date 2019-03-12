@@ -4,7 +4,24 @@
             "outputFile": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v24/values-v24.xml",
             "map": [
                 {
-                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4ae8ab5ecd305ba970618eacd51cc27f/res/values-v24/values-v24.xml",
+                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b5f8339b223bee2cc4ed65a071589a40/res/values-v24/values-v24.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,121,182,248",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "116,177,243,310"
+                    },
+                    "to": {
+                        "startLines": "4,5,6,7",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "347,413,474,540",
+                        "endColumns": "65,60,65,66",
+                        "endOffsets": "408,469,535,602"
+                    }
+                },
+                {
+                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/values-v24/values-v24.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

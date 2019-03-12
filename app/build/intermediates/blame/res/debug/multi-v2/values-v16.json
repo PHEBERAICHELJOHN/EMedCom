@@ -4,17 +4,7 @@
             "outputFile": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/719a9f77f2b4d60a59528b6236873d7e/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
-                    }
-                },
-                {
-                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/4ae8ab5ecd305ba970618eacd51cc27f/res/values-v16/values-v16.xml",
+                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -30,6 +20,16 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
+                    }
+                },
+                {
+                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fe7810103cd91262995424e328a3b4b3/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
                     }
                 }
             ]
