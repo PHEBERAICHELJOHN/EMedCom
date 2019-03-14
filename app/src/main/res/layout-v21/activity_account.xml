@@ -6,6 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".AccountActivity">
 
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints"></android.support.v7.widget.Toolbar>
+    
+
     <TextView
         android:id="@+id/success"
         android:layout_width="119dp"
@@ -14,16 +23,6 @@
         android:visibility="visible"
         tools:layout_editor_absoluteX="146dp"
         tools:layout_editor_absoluteY="241dp"
-        tools:ignore="MissingConstraints" />
-
-    <Button
-        android:id="@+id/signout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="SIGN OUT"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="122dp"
-        tools:layout_editor_absoluteY="389dp"
         tools:ignore="MissingConstraints" />
 
 </android.support.constraint.ConstraintLayout>
