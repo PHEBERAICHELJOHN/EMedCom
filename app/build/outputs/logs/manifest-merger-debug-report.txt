@@ -1,22 +1,21 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-23:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/phebe/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/23a92cc5a495ec35c836147943b623bb/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.firebase:firebase-database:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/9799ab2350626e64239dbbd88c98ec8b/AndroidManifest.xml:2:1-8:12
 MERGED from [com.google.firebase:firebase-core:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/888a8e143e6ff0467efcfafa67693c84/AndroidManifest.xml:2:1-9:12
-MERGED from [com.google.firebase:firebase-crash:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/d9d03cf303bcb6d42122e1d458e48770/AndroidManifest.xml:17:1-27:12
 MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/fe5cfe3c8a0b977f702e44c7ad065709/AndroidManifest.xml:17:1-38:12
 MERGED from [com.android.support:cardview-v7:27.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a99af30b16b6296ab55ef2f526ce83ed/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/368c30dcb69110c7bcf1537cfe3f9167/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/9508c362f542957bd09bee37b235e8af/AndroidManifest.xml:17:1-34:12
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/5ab53c424ee1c96560970aa421949d4e/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/d72c9cfb05519020e0b5bb606ca2c4c5/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/aed530527268bf043381a067c84bc1f0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/d12572aeb17dd92123c8aabf403f2828/AndroidManifest.xml:17:1-65:12
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/d72c9cfb05519020e0b5bb606ca2c4c5/AndroidManifest.xml:2:1-10:12
 MERGED from [com.google.firebase:firebase-common:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fdc7c1c8c578be2757d4f167e3575725/AndroidManifest.xml:2:1-16:12
 MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/18c6245e100249a9f6bd34f68238b020/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/ec6f785eb911880c1a93848f83a51471/AndroidManifest.xml:2:1-10:12
@@ -35,48 +34,46 @@ MERGED from [com.android.support:support-core-utils:27.1.1] /home/phebe/.gradle/
 MERGED from [com.android.support:support-vector-drawable:27.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/394f521fce6861e76790445e527d0e3c/AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b5f8339b223bee2cc4ed65a071589a40/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:27.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fe7810103cd91262995424e328a3b4b3/AndroidManifest.xml:17:1-22:12
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/afc6e1a405690799c0c112a2db15612b/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/94ebdf0cbfe8b7718b945284fc85716a/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4ac3575b76324be9d52856677610dd83/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/afc6e1a405690799c0c112a2db15612b/AndroidManifest.xml:17:1-24:12
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4a9f1fd5d87978b8c1e51c95fa6d6e15/AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ad7684fef767872ddf23f8aadeb67d15/AndroidManifest.xml:17:1-22:12
-INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-22:12
-INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-22:12
+INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-23:12
+INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:3:5-34
 		INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml
 		INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml
-		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-22:12
+		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml
-		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-22:12
+		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:1-23:12
 		INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:5:5-20:19
+ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/phebe/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/23a92cc5a495ec35c836147943b623bb/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] /home/phebe/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.1.3.aar/23a92cc5a495ec35c836147943b623bb/AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/888a8e143e6ff0467efcfafa67693c84/AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/888a8e143e6ff0467efcfafa67693c84/AndroidManifest.xml:7:5-20
-MERGED from [com.google.firebase:firebase-crash:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/d9d03cf303bcb6d42122e1d458e48770/AndroidManifest.xml:24:5-25:19
-MERGED from [com.google.firebase:firebase-crash:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/d9d03cf303bcb6d42122e1d458e48770/AndroidManifest.xml:24:5-25:19
 MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/fe5cfe3c8a0b977f702e44c7ad065709/AndroidManifest.xml:22:5-36:19
 MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/fe5cfe3c8a0b977f702e44c7ad065709/AndroidManifest.xml:22:5-36:19
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/9508c362f542957bd09bee37b235e8af/AndroidManifest.xml:26:5-32:19
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/9508c362f542957bd09bee37b235e8af/AndroidManifest.xml:26:5-32:19
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/5ab53c424ee1c96560970aa421949d4e/AndroidManifest.xml:28:5-53:19
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/5ab53c424ee1c96560970aa421949d4e/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/d72c9cfb05519020e0b5bb606ca2c4c5/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/d72c9cfb05519020e0b5bb606ca2c4c5/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/aed530527268bf043381a067c84bc1f0/AndroidManifest.xml:28:5-38:19
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/aed530527268bf043381a067c84bc1f0/AndroidManifest.xml:28:5-38:19
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/d12572aeb17dd92123c8aabf403f2828/AndroidManifest.xml:34:5-63:19
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/d12572aeb17dd92123c8aabf403f2828/AndroidManifest.xml:34:5-63:19
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/d72c9cfb05519020e0b5bb606ca2c4c5/AndroidManifest.xml:7:5-8:19
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/d72c9cfb05519020e0b5bb606ca2c4c5/AndroidManifest.xml:7:5-8:19
 MERGED from [com.google.firebase:firebase-common:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fdc7c1c8c578be2757d4f167e3575725/AndroidManifest.xml:8:5-14:19
 MERGED from [com.google.firebase:firebase-common:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fdc7c1c8c578be2757d4f167e3575725/AndroidManifest.xml:8:5-14:19
 MERGED from [com.google.firebase:firebase-iid-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-interop-16.0.0.aar/ec6f785eb911880c1a93848f83a51471/AndroidManifest.xml:7:5-8:19
@@ -111,24 +108,28 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home
 		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:6:9-35
 	android:theme
 		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:11:9-40
-activity#com.example.emedcom.HomeActivity
-ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:12:9-59
+activity#com.example.emedcom.AccountActivity
+ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:12:9-62
 	android:name
-		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:12:19-47
-activity#com.example.emedcom.MainActivity
-ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:13:9-19:20
+		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:12:19-50
+activity#com.example.emedcom.HomeActivity
+ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:13:9-50
 	android:name
 		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:13:19-47
+activity#com.example.emedcom.MainActivity
+ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:14:9-20:20
+	android:name
+		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:14:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:14:13-18:29
+ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:15:13-19:29
 action#android.intent.action.MAIN
-ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:15:17-69
+ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:16:17-69
 	android:name
-		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:15:25-66
+		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:16:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:17:17-77
+ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:18:17-77
 	android:name
-		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:17:27-74
+		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml:18:27-74
 uses-sdk
 INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml
@@ -141,8 +142,6 @@ MERGED from [com.google.firebase:firebase-database:16.0.1] /home/phebe/.gradle/c
 MERGED from [com.google.firebase:firebase-database:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-database-16.0.1.aar/9799ab2350626e64239dbbd88c98ec8b/AndroidManifest.xml:6:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/888a8e143e6ff0467efcfafa67693c84/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-core:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-core-16.0.1.aar/888a8e143e6ff0467efcfafa67693c84/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-crash:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/d9d03cf303bcb6d42122e1d458e48770/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-crash:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/d9d03cf303bcb6d42122e1d458e48770/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/fe5cfe3c8a0b977f702e44c7ad065709/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/fe5cfe3c8a0b977f702e44c7ad065709/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:cardview-v7:27.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/cardview-v7-27.1.1.aar/a99af30b16b6296ab55ef2f526ce83ed/AndroidManifest.xml:20:5-44
@@ -153,12 +152,12 @@ MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /ho
 MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/9508c362f542957bd09bee37b235e8af/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/5ab53c424ee1c96560970aa421949d4e/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/5ab53c424ee1c96560970aa421949d4e/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/d72c9cfb05519020e0b5bb606ca2c4c5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/d72c9cfb05519020e0b5bb606ca2c4c5/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/aed530527268bf043381a067c84bc1f0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/aed530527268bf043381a067c84bc1f0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/d12572aeb17dd92123c8aabf403f2828/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/d12572aeb17dd92123c8aabf403f2828/AndroidManifest.xml:20:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/d72c9cfb05519020e0b5bb606ca2c4c5/AndroidManifest.xml:5:5-44
-MERGED from [com.google.firebase:firebase-auth-interop:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-interop-16.0.0.aar/d72c9cfb05519020e0b5bb606ca2c4c5/AndroidManifest.xml:5:5-44
 MERGED from [com.google.firebase:firebase-common:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fdc7c1c8c578be2757d4f167e3575725/AndroidManifest.xml:5:5-6:37
 MERGED from [com.google.firebase:firebase-common:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-common-16.0.0.aar/fdc7c1c8c578be2757d4f167e3575725/AndroidManifest.xml:5:5-6:37
 MERGED from [com.google.android.gms:play-services-flags:15.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-flags-15.0.1.aar/18c6245e100249a9f6bd34f68238b020/AndroidManifest.xml:20:5-44
@@ -195,12 +194,12 @@ MERGED from [com.android.support:support-media-compat:26.1.0] /home/phebe/.gradl
 MERGED from [com.android.support:support-media-compat:26.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b5f8339b223bee2cc4ed65a071589a40/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-compat:27.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fe7810103cd91262995424e328a3b4b3/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:27.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fe7810103cd91262995424e328a3b4b3/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/afc6e1a405690799c0c112a2db15612b/AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/afc6e1a405690799c0c112a2db15612b/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/94ebdf0cbfe8b7718b945284fc85716a/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/94ebdf0cbfe8b7718b945284fc85716a/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4ac3575b76324be9d52856677610dd83/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/4ac3575b76324be9d52856677610dd83/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/afc6e1a405690799c0c112a2db15612b/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-measurement-base-16.0.0.aar/afc6e1a405690799c0c112a2db15612b/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4a9f1fd5d87978b8c1e51c95fa6d6e15/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.lifecycle:runtime:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/4a9f1fd5d87978b8c1e51c95fa6d6e15/AndroidManifest.xml:20:5-44
 MERGED from [android.arch.core:runtime:1.1.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/ad7684fef767872ddf23f8aadeb67d15/AndroidManifest.xml:20:5-44
@@ -217,20 +216,6 @@ INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidMani
 		INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml
 		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml
 		INJECTED from /home/phebe/AndroidStudioProjects/EMedCom/app/src/main/AndroidManifest.xml
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.firebase:firebase-crash:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/d9d03cf303bcb6d42122e1d458e48770/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/368c30dcb69110c7bcf1537cfe3f9167/AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-database-connection:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/368c30dcb69110c7bcf1537cfe3f9167/AndroidManifest.xml:8:5-67
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/9508c362f542957bd09bee37b235e8af/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/9508c362f542957bd09bee37b235e8af/AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/5ab53c424ee1c96560970aa421949d4e/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/5ab53c424ee1c96560970aa421949d4e/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/aed530527268bf043381a067c84bc1f0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/aed530527268bf043381a067c84bc1f0/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/d12572aeb17dd92123c8aabf403f2828/AndroidManifest.xml:23:5-67
-MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/d12572aeb17dd92123c8aabf403f2828/AndroidManifest.xml:23:5-67
-	android:name
-		ADDED from [com.google.firebase:firebase-crash:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-crash-16.0.1.aar/d9d03cf303bcb6d42122e1d458e48770/AndroidManifest.xml:22:22-64
 activity#com.google.firebase.auth.internal.FederatedSignInActivity
 ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/fe5cfe3c8a0b977f702e44c7ad065709/AndroidManifest.xml:23:9-29:75
 	android:excludeFromRecents
@@ -259,6 +244,18 @@ ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/phebe/.gradle/caches
 		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/fe5cfe3c8a0b977f702e44c7ad065709/AndroidManifest.xml:34:17-82
 	android:name
 		ADDED from [com.google.firebase:firebase-auth:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-auth-16.0.1.aar/fe5cfe3c8a0b977f702e44c7ad065709/AndroidManifest.xml:33:17-109
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.firebase:firebase-database-connection:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/368c30dcb69110c7bcf1537cfe3f9167/AndroidManifest.xml:8:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/9508c362f542957bd09bee37b235e8af/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/9508c362f542957bd09bee37b235e8af/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/5ab53c424ee1c96560970aa421949d4e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/5ab53c424ee1c96560970aa421949d4e/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/aed530527268bf043381a067c84bc1f0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:16.1.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-16.1.1.aar/aed530527268bf043381a067c84bc1f0/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/d12572aeb17dd92123c8aabf403f2828/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:16.0.0] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-iid-16.0.0.aar/d12572aeb17dd92123c8aabf403f2828/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-database-connection:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-16.0.1.aar/368c30dcb69110c7bcf1537cfe3f9167/AndroidManifest.xml:8:22-64
 uses-permission#android.permission.ACCESS_NETWORK_STATE
 ADDED from [com.google.firebase:firebase-measurement-connector-impl:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-measurement-connector-impl-16.0.1.aar/9508c362f542957bd09bee37b235e8af/AndroidManifest.xml:23:5-79
 MERGED from [com.google.firebase:firebase-analytics:16.0.1] /home/phebe/.gradle/caches/transforms-1/files-1.1/firebase-analytics-16.0.1.aar/5ab53c424ee1c96560970aa421949d4e/AndroidManifest.xml:24:5-79

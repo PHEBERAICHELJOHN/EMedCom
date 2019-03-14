@@ -564,6 +564,10 @@
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/color-v23/abc_tint_btn_checkable.xml"
     },
     {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/layout_activity_account.xml.flat",
+        "source": "/home/phebe/AndroidStudioProjects/EMedCom/app/src/main/res/layout/activity_account.xml"
+    },
+    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
         "source": "/home/phebe/AndroidStudioProjects/EMedCom/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
     },
