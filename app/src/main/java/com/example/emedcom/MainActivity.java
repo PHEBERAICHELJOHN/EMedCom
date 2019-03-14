@@ -16,13 +16,13 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        /* splash scrren codes*/
+        /* splash screen codes*/
 
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                Intent homeintent = new Intent(MainActivity.this, HomeActivity.class);
-                startActivity(homeintent);
+                Intent HomeIntent = new Intent(MainActivity.this, HomeActivity.class);
+                startActivity(HomeIntent);
                 finish();
             }
         },SPLASH_TIME_OUT);
