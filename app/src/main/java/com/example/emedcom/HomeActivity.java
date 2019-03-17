@@ -35,7 +35,6 @@ public class HomeActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-
         mEmailField = (EditText)findViewById(R.id.emailField);
         mPasswordField = (EditText)findViewById(R.id.passwordField);
 
@@ -51,7 +50,6 @@ public class HomeActivity extends AppCompatActivity {
                     startActivity(new Intent(HomeActivity.this,AccountActivity.class));
 
                 }
-
             }
         };
 
@@ -89,7 +87,7 @@ public class HomeActivity extends AppCompatActivity {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
 
-                //check user if its successfull or not
+                //check user if its successful or not
                 if(!task.isSuccessful()) {
                     Toast.makeText(HomeActivity.this, "Sign in Problem", Toast.LENGTH_SHORT).show();
                 }

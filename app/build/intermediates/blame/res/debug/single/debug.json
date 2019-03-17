@@ -4,12 +4,12 @@
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-mdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/layout_abc_alert_dialog_button_bar_material.xml.flat",
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/layout/abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-xxhdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable_abc_textfield_search_material.xml.flat",
@@ -32,6 +32,10 @@
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b5f8339b223bee2cc4ed65a071589a40/res/layout/notification_template_big_media_custom.xml"
     },
     {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/menu_menu.xml.flat",
+        "source": "/home/phebe/AndroidStudioProjects/EMedCom/app/src/main/res/menu/menu.xml"
+    },
+    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable/abc_ic_clear_material.xml"
     },
@@ -52,12 +56,12 @@
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-xxhdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
-        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
-        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fe7810103cd91262995424e328a3b4b3/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
-    },
-    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/color_common_google_signin_btn_text_light.xml.flat",
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c56017d27784951c1bc74bb6709a2df8/res/color/common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notify_panel_notification_icon_bg.png.flat",
+        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fe7810103cd91262995424e328a3b4b3/res/drawable-xhdpi-v4/notify_panel_notification_icon_bg.png"
     },
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_ab_share_pack_mtrl_alpha.9.png.flat",
@@ -92,12 +96,12 @@
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-hdpi-v4/abc_spinner_mtrl_am_alpha.9.png"
     },
     {
-        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
-        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/color/abc_hint_foreground_material_light.xml"
-    },
-    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_textfield_default_mtrl_alpha.9.png.flat",
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-xxhdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/color_abc_hint_foreground_material_light.xml.flat",
+        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/color/abc_hint_foreground_material_light.xml"
     },
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_list_divider_mtrl_alpha.9.png.flat",
@@ -224,12 +228,12 @@
         "source": "/home/phebe/AndroidStudioProjects/EMedCom/app/src/main/res/drawable/red.jpg"
     },
     {
-        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/home/phebe/AndroidStudioProjects/EMedCom/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
-    },
-    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-hdpi_ic_action_pass.png.flat",
         "source": "/home/phebe/AndroidStudioProjects/EMedCom/app/src/main/res/drawable-hdpi/ic_action_pass.png"
+    },
+    {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/home/phebe/AndroidStudioProjects/EMedCom/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
     },
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_spinner_mtrl_am_alpha.9.png.flat",
@@ -324,12 +328,12 @@
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
-        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-xxhdpi-v4/abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_abc_textfield_activated_mtrl_alpha.9.png.flat",
+        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-mdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",
@@ -380,12 +384,12 @@
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-mdpi-v4/abc_scrubber_control_off_mtrl_alpha.png"
     },
     {
-        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
-        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fe7810103cd91262995424e328a3b4b3/res/drawable/notification_bg_low.xml"
-    },
-    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fe7810103cd91262995424e328a3b4b3/res/drawable-xhdpi-v4/notification_bg_normal.9.png"
+    },
+    {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable_notification_bg_low.xml.flat",
+        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/fe7810103cd91262995424e328a3b4b3/res/drawable/notification_bg_low.xml"
     },
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_abc_ic_star_half_black_48dp.png.flat",
@@ -484,12 +488,12 @@
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-hdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
-        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
-    },
-    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/anim_abc_tooltip_exit.xml.flat",
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/anim/abc_tooltip_exit.xml"
+    },
+    {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_scrubber_control_to_pressed_mtrl_005.png.flat",
+        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-xxhdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png"
     },
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_googleg_disabled_color_18.png.flat",
@@ -562,10 +566,6 @@
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/color-v23_abc_tint_btn_checkable.xml.flat",
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/color-v23/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/layout_activity_account.xml.flat",
-        "source": "/home/phebe/AndroidStudioProjects/EMedCom/app/src/main/res/layout/activity_account.xml"
     },
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/mipmap-mdpi_ic_launcher_round.png.flat",
@@ -1450,6 +1450,10 @@
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable_common_google_signin_btn_icon_disabled.xml.flat",
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/c56017d27784951c1bc74bb6709a2df8/res/drawable/common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/layout-v21_activity_account.xml.flat",
+        "source": "/home/phebe/AndroidStudioProjects/EMedCom/app/src/main/res/layout-v21/activity_account.xml"
     },
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_btn_radio_to_on_mtrl_015.png.flat",

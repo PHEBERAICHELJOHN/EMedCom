@@ -792,6 +792,7 @@ id listMode
 id list_item
 id loginBtn
 id media_actions
+id menuLogout
 id message
 id middle
 id multiply
@@ -843,6 +844,7 @@ id start
 id status_bar_latest_event_content
 id submenuarrow
 id submit_area
+id success
 id tabMode
 id tag_transition_group
 id text
@@ -851,12 +853,12 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textView
 id textView2
-id textView3
 id textView4
 id time
 id title
 id titleDividerNoCustom
 id title_template
+id toolbar
 id top
 id topPanel
 id uniform
@@ -921,6 +923,7 @@ layout select_dialog_item_material
 layout select_dialog_multichoice_material
 layout select_dialog_singlechoice_material
 layout support_simple_spinner_dropdown_item
+menu menu
 mipmap ic_launcher
 mipmap ic_launcher_foreground
 mipmap ic_launcher_round
