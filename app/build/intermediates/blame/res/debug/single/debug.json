@@ -28,12 +28,12 @@
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/drawable-xxxhdpi-v4/abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
-        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b5f8339b223bee2cc4ed65a071589a40/res/layout/notification_template_big_media_custom.xml"
-    },
-    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/menu_menu.xml.flat",
         "source": "/home/phebe/AndroidStudioProjects/EMedCom/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/layout_notification_template_big_media_custom.xml.flat",
+        "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/b5f8339b223bee2cc4ed65a071589a40/res/layout/notification_template_big_media_custom.xml"
     },
     {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/res/merged/debug/drawable_abc_ic_clear_material.xml.flat",

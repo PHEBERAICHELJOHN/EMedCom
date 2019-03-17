@@ -15,7 +15,7 @@ import com.google.firebase.auth.FirebaseAuth;
 public class AccountActivity extends AppCompatActivity {
 
 
-    @Override
+/*    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
 
         MenuInflater inflater = getMenuInflater();
@@ -36,7 +36,7 @@ public class AccountActivity extends AppCompatActivity {
                 break;
         }
         return true;
-    }
+    }   */
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -44,8 +44,8 @@ public class AccountActivity extends AppCompatActivity {
         setContentView(R.layout.activity_account);
 
 
-        Toolbar toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+      /*  Toolbar toolbar = findViewById(R.id.toolbar);
+        setSupportActionBar(toolbar);   */
 
 
     }
