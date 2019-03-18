@@ -8,11 +8,15 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 
 import com.google.firebase.auth.FirebaseAuth;
 
 
 public class AccountActivity extends AppCompatActivity {
+
+    Button b1;
 
 
 /*    @Override
@@ -46,6 +50,17 @@ public class AccountActivity extends AppCompatActivity {
 
       /*  Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);   */
+
+        b1 = (Button)findViewById(R.id.logout);
+
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent AccountIntent = new Intent(AccountActivity.this, UserpageActivity.class);
+                startActivity(AccountIntent);
+                //finish();
+            }
+        });
 
 
     }

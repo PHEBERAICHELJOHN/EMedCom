@@ -8,7 +8,9 @@ import android.support.v7.widget.CardView;
 import android.text.TextUtils;
 import android.util.StringBuilderPrinter;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
@@ -20,6 +22,9 @@ public class HomeActivity extends AppCompatActivity {
 
     private EditText mEmailField;
     private EditText mPasswordField;
+
+    private Button signup;
+    private Button forgetpassword;
 
     private CardView mLoginBtn;
 
@@ -91,6 +96,15 @@ public class HomeActivity extends AppCompatActivity {
                 if(!task.isSuccessful()) {
                     Toast.makeText(HomeActivity.this, "Sign in Problem", Toast.LENGTH_SHORT).show();
                 }
+            }
+        });
+
+        signup = (Button)findViewById(R.id.signup);
+        signup.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent signup = new Intent(HomeActivity.this, SignupActivity.class);
+                startActivity(signup);
             }
         });
     }
