@@ -46,6 +46,25 @@
                         "endColumns": "84,83,73,72,98,94",
                         "endOffsets": "408,492,566,639,738,833"
                     }
+                },
+                {
+                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/cd97dc3f19ee7c501e03a452a270ec8f/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endLines": "5",
+                        "endColumns": "12",
+                        "endOffsets": "232"
+                    },
+                    "to": {
+                        "startLines": "15",
+                        "startColumns": "4",
+                        "startOffsets": "1066",
+                        "endLines": "18",
+                        "endColumns": "12",
+                        "endOffsets": "1243"
+                    }
                 }
             ]
         }

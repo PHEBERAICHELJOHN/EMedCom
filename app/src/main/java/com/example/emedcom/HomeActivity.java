@@ -4,8 +4,8 @@ import android.content.Intent;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.support.v7.widget.CardView;
 import android.text.TextUtils;
+import android.util.Patterns;
 import android.util.StringBuilderPrinter;
 import android.view.View;
 import android.widget.Button;
@@ -18,18 +18,19 @@ import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
 
+
 public class HomeActivity extends AppCompatActivity {
 
-    private EditText mEmailField;
-    private EditText mPasswordField;
+    private EditText editTextEmail;
+    private EditText editTextPassword;
 
-    private Button signup;
-    private Button forgetpassword;
 
-    private CardView mLoginBtn;
+    private Button buttonSignup;
+    private Button buttonLogin;
+
+ //   private Button forgetpassword;
 
     private FirebaseAuth mAuth;
-
     private FirebaseAuth.AuthStateListener mAuthListener;
 
 
@@ -40,16 +41,17 @@ public class HomeActivity extends AppCompatActivity {
 
         mAuth = FirebaseAuth.getInstance();
 
-        mEmailField = (EditText)findViewById(R.id.emailField);
-        mPasswordField = (EditText)findViewById(R.id.passwordField);
+        editTextEmail = (EditText)findViewById(R.id.editTextEmail);
+        editTextPassword = (EditText)findViewById(R.id.editTextPassword);
 
-        mLoginBtn = (CardView)findViewById(R.id.loginBtn);
+        buttonLogin = (Button)findViewById(R.id.buttonLogin);
+
 
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
 
-                //user has not logged in
+                //user has logged in
                 if(firebaseAuth.getCurrentUser() != null) {
 
                     startActivity(new Intent(HomeActivity.this,AccountActivity.class));
@@ -59,7 +61,7 @@ public class HomeActivity extends AppCompatActivity {
         };
 
 
-        mLoginBtn.setOnClickListener(new View.OnClickListener() {
+        buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
 
@@ -78,33 +80,50 @@ public class HomeActivity extends AppCompatActivity {
 
     private void startSignIn(){
 
-        String email = mEmailField.getText().toString();
-        String password = mPasswordField.getText().toString();
+        String email = editTextEmail.getText().toString();
+        String password = editTextPassword.getText().toString();
 
-        //avoiding empty fields
-        if(TextUtils.isEmpty(email) || TextUtils.isEmpty(password)) {
-
-            Toast.makeText(HomeActivity.this, "Fields are Empty.", Toast.LENGTH_SHORT).show();
-
+        if(email.isEmpty()) {
+            editTextEmail.setError("Email is required");
+            editTextEmail.requestFocus();
+            return;
+        }
+        //checking for valid email address
+        if(!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
+            editTextEmail.setError("Please enter a valid email");
+            editTextEmail.requestFocus();
+            return;
+        }
+        if(password.isEmpty()) {
+            editTextPassword.setError("Password is required");
+            editTextPassword.requestFocus();
+            return;
+        }
+        //minimum password length is 7
+        if(password.length()<7) {
+            editTextPassword.setError("Minimum password length is 7");
+            editTextPassword.requestFocus();
+            return;
         }
 
         mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
 
-                //check user if its successful or not
+                //check user if its not successful
                 if(!task.isSuccessful()) {
                     Toast.makeText(HomeActivity.this, "Sign in Problem", Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
-        signup = (Button)findViewById(R.id.signup);
-        signup.setOnClickListener(new View.OnClickListener() {
+        buttonSignup = (Button) findViewById(R.id.buttonSignup);
+
+        buttonSignup.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                Intent signup = new Intent(HomeActivity.this, SignupActivity.class);
-                startActivity(signup);
+            public void onClick(View view) {
+                Intent signUpIntent = new Intent(HomeActivity.this, SignupActivity.class);
+                startActivity(signUpIntent);
             }
         });
     }
