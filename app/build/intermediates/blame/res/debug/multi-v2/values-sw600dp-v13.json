@@ -4,17 +4,7 @@
             "outputFile": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/values-sw600dp-v13/values-sw600dp-v13.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9",
-                        "startColumns": "4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,124,193,263,337,413,472,543",
-                        "endColumns": "68,68,69,73,75,58,70,67",
-                        "endOffsets": "119,188,258,332,408,467,538,606"
-                    }
-                },
-                {
-                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-26.1.0.aar/071e94471bb2236c58a02a34e612a914/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-26.1.0.aar/625ace1e06470c487a3d5d6d549bd2af/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -31,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/cd97dc3f19ee7c501e03a452a270ec8f/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/design-27.1.1.aar/6c28374e67afb9d6a0501621eaff2994/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -47,6 +37,16 @@
                         "endLines": "10,11,12,13,14,15,16,17,20,24",
                         "endColumns": "59,69,70,71,57,57,105,63,62,12",
                         "endOffsets": "666,736,807,879,937,995,1101,1165,1366,1548"
+                    }
+                },
+                {
+                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1a1d5644ac8e2c508f5f87df66193005/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,124,193,263,337,413,472,543",
+                        "endColumns": "68,68,69,73,75,58,70,67",
+                        "endOffsets": "119,188,258,332,408,467,538,606"
                     }
                 }
             ]

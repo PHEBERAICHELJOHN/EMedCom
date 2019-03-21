@@ -4,7 +4,7 @@
             "outputFile": "/home/phebe/AndroidStudioProjects/EMedCom/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/f100e0974d8c15edd4d307128385b600/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1a1d5644ac8e2c508f5f87df66193005/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/37f313c0049c48da3c36789c14ac58ed/res/values-watch-v20/values.xml",
+                    "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-auth-12.0.1.aar/7769882a851107164082bcfb1f6e1ab3/res/values-watch-v20/values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

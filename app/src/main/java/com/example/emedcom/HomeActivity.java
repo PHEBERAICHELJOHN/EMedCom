@@ -1,6 +1,7 @@
 package com.example.emedcom;
 
 import android.content.Intent;
+import android.graphics.Paint;
 import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -39,6 +40,8 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        buttonSignup = (Button) findViewById(R.id.buttonSignup);
+
         mAuth = FirebaseAuth.getInstance();
 
         editTextEmail = (EditText)findViewById(R.id.editTextEmail);
@@ -46,6 +49,9 @@ public class HomeActivity extends AppCompatActivity {
 
         buttonLogin = (Button)findViewById(R.id.buttonLogin);
 
+
+        //underline button
+        buttonSignup.setPaintFlags(buttonSignup.getPaintFlags()| Paint.UNDERLINE_TEXT_FLAG);
 
         mAuthListener = new FirebaseAuth.AuthStateListener() {
             @Override
@@ -116,8 +122,6 @@ public class HomeActivity extends AppCompatActivity {
                 }
             }
         });
-
-        buttonSignup = (Button) findViewById(R.id.buttonSignup);
 
         buttonSignup.setOnClickListener(new View.OnClickListener() {
             @Override
