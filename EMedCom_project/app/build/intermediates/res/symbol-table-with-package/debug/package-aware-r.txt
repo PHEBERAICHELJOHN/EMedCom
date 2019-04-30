@@ -1172,6 +1172,7 @@ id container
 id content
 id contentPanel
 id coordinator
+id count
 id custom
 id customPanel
 id dark
@@ -1251,6 +1252,7 @@ id parentPanel
 id parent_matrix
 id percent
 id pin
+id predict_btn
 id predict_img
 id progress_circular
 id progress_horizontal

@@ -8,6 +8,7 @@
         android:minSdkVersion="16"
         android:targetSdkVersion="28" />
 
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
@@ -30,6 +31,10 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.emedcom_project.PredictionActivity" />
+        <activity android:name="com.example.emedcom_project.RegisterActivity" />
+        <activity android:name="com.example.emedcom_project.LoginActivity" />
+        <activity android:name="com.example.emedcom_project.DashboardActivity" />
         <activity android:name="com.example.emedcom_project.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
