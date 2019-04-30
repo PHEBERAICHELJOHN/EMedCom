@@ -9,7 +9,7 @@ import android.widget.Toast;
 
 public class DashboardActivity extends AppCompatActivity {
 
-    Button login;
+    Button login, predict;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -25,6 +25,17 @@ public class DashboardActivity extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(),"Please Log In with your email and password",Toast.LENGTH_SHORT).show();
                 Intent loginIntent = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(loginIntent);
+            }
+        });
+
+        predict.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                // Toast.makeText(getApplicationContext(),"Please Log In with your email and password",Toast.LENGTH_SHORT).show();
+                Intent predictIntent = new Intent(getApplicationContext(), PredictionActivity.class);
+                startActivity(predictIntent);
+
             }
         });
     }

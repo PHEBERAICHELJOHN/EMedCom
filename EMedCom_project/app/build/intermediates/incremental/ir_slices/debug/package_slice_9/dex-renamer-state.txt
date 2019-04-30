@@ -1,0 +1,4 @@
+#Mon Apr 29 22:17:14 IST 2019
+base.0=/home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/build/intermediates/transforms/dexMerger/debug/9
+path.0=classes.dex
+renamed.0=classes.dex
