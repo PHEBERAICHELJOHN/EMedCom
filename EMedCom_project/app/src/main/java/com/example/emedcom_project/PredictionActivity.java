@@ -1,14 +1,19 @@
 package com.example.emedcom_project;
 
+import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.koushikdutta.async.future.FutureCallback;
+import com.koushikdutta.ion.Ion;
 
 import java.util.ArrayList;
 
@@ -19,10 +24,41 @@ public class PredictionActivity extends AppCompatActivity {
 
     ArrayList<spinner_source_districts> source = new ArrayList<>();
 
+    Button b1 ;
+
+    TextView t1;
+
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prediction);
+
+        final int a = 15, b = 1, c = 1, d = 112, e = 3;
+
+        b1 = (Button) findViewById(R.id.predict_btn);
+
+        t1 = (TextView) findViewById(R.id.print_result);
+
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+
+                Ion.with(getApplicationContext())
+                        .load("http://192.168.0.106/emedcom/?action=Y&a="+a+"&b="+b+"&c="+c+"&d="+d+"&e="+e)
+                        .asString()
+                        .setCallback(new FutureCallback<String>() {
+                            @Override
+                            public void onCompleted(Exception e, String result) {
+
+                                t1.setText(result);
+
+                            }
+                        });
+
+            }
+        });
 
         //drop down list of generic names
         Spinner spinner = (Spinner) findViewById(R.id.generic_name);
@@ -63,11 +99,11 @@ public class PredictionActivity extends AppCompatActivity {
         spinner.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
+                // On selecting a spinner item
                 spinner_generic_name generic = (spinner_generic_name) parent.getSelectedItem();
                 ((TextView) parent.getChildAt(0)).setTextColor(Color.rgb(76, 156, 210));
                 ((TextView) parent.getChildAt(0)).setTextSize(18);
-                Toast.makeText(getApplicationContext(), "Generic Name ID: "+generic.getId()+"\nGeneric Name : "+generic.getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), " "+generic.getId()+"\nSelected "+generic.getName(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -109,17 +145,20 @@ public class PredictionActivity extends AppCompatActivity {
         spinnerdis.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
             @Override
             public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
-
+                // On selecting a spinner item
                 spinner_source_districts districts = (spinner_source_districts) parent.getSelectedItem();
                 ((TextView) parent.getChildAt(0)).setTextColor(Color.rgb(76, 156, 210));
                 ((TextView) parent.getChildAt(0)).setTextSize(18);
-                Toast.makeText(getApplicationContext(), "District Name ID: "+districts.getId()+"\nDistrict Name : "+districts.getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), " "+districts.getId()+"\n Selected "+districts.getName(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
+
+
+
 
     }
 }

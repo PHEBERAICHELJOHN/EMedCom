@@ -21,13 +21,24 @@
             android:paddingLeft="15dp"
             android:paddingRight="15dp">
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Select generic name"/>
+
             <Spinner
                 android:id="@+id/generic_name"
                 android:layout_width="match_parent"
                 android:layout_height="50dp"
                 android:fontFamily="sans-serif">
-
             </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Select condition"/>
 
             <Spinner
                 android:id="@+id/condition"
@@ -35,6 +46,12 @@
                 android:layout_height="50dp"
                 android:fontFamily="sans-serif">
             </Spinner>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Select source district"/>
 
             <Spinner
                 android:id="@+id/source"
@@ -51,6 +68,12 @@
                 android:textColor="@android:color/holo_blue_dark"
                 android:textSize="18sp"/>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_dark"
+                android:text="Select month"/>
+
             <Spinner
                 android:id="@+id/month"
                 android:layout_width="match_parent"
@@ -58,10 +81,10 @@
                 android:fontFamily="sans-serif">
             </Spinner>
 
-            <ProgressBar
+        <!--    <ProgressBar
                 android:id="@+id/regProgressBar"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content" />  -->
 
             <Button
                 android:id="@+id/predict_btn"
@@ -71,6 +94,14 @@
                 android:textColor="@android:color/white"
                 android:background="@android:color/holo_blue_dark"
                 android:textStyle="bold"/>
+
+            <TextView
+                android:text="lala"
+                android:id="@+id/print_result"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/holo_blue_dark"/>
+
 
         </LinearLayout>
 
