@@ -1152,6 +1152,7 @@ id barrier
 id beginning
 id blocking
 id bottom
+id btnDelete
 id buttonPanel
 id buttonabout
 id buttonhome
@@ -1178,6 +1179,7 @@ id customPanel
 id dark
 id decor_content_parent
 id default_activity_button
+id delete_progress
 id design_bottom_sheet
 id design_menu_item_action_area
 id design_menu_item_action_area_stub
@@ -1187,6 +1189,7 @@ id dimensions
 id direct
 id disableHome
 id edit_query
+id email_text
 id end
 id end_padder
 id enterAlways
@@ -1391,6 +1394,7 @@ layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
 layout activity_dashboard
+layout activity_delete_account
 layout activity_login
 layout activity_main
 layout activity_ocrcol

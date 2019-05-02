@@ -64,7 +64,7 @@ public class OCRcolActivity extends AppCompatActivity {
 
         TextRecognizer textRecognizer = new TextRecognizer.Builder(getApplicationContext()).build();
         if (!textRecognizer.isOperational()) {
-            Log.w("OCRactvty", "dependencies not set");
+            Log.w("OCRactivity", "dependencies not set");
         } else {
 
             cameraSource = new CameraSource.Builder(getApplicationContext(), textRecognizer)

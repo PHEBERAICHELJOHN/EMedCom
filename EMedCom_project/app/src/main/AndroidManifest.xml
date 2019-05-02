@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OCRcolActivity"></activity>
+        <activity android:name=".DeleteAccount"></activity>
+        <activity android:name=".OCRcolActivity" />
         <activity android:name=".PredictionActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
@@ -28,7 +29,7 @@
 
         <meta-data
             android:name="com.google.android.gms.vision.DEPENDENCIES"
-            android:value="ocr"></meta-data>
+            android:value="ocr" />
     </application>
 
 </manifest>
