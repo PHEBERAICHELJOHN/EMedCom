@@ -2316,6 +2316,10 @@
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0.aar/1cd4b1d900434c5a46aafcedb7a576bb/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
+        "merged": "/home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/build/intermediates/res/merged/debug/layout_activity_forget_password.xml.flat",
+        "source": "/home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/src/main/res/layout/activity_forget_password.xml"
+    },
+    {
         "merged": "/home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/build/intermediates/res/merged/debug/drawable-xhdpi-v4_common_google_signin_btn_icon_dark_normal_background.9.png.flat",
         "source": "/home/phebe/.gradle/caches/transforms-1/files-1.1/play-services-base-15.0.1.aar/9ffec886cf5871c146b5e62ddc22715c/res/drawable-xhdpi-v4/common_google_signin_btn_icon_dark_normal_background.9.png"
     },
