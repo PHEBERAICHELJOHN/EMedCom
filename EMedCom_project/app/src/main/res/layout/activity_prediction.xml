@@ -60,13 +60,20 @@
                 android:fontFamily="sans-serif">
             </Spinner>
 
-            <EditText
-                android:id="@+id/count"
+            <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Enter Count"
                 android:textColor="@android:color/holo_blue_dark"
-                android:textSize="18sp"/>
+                android:text="Select count"/>
+
+            <Spinner
+                android:id="@+id/count"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:fontFamily="sans-serif">
+            </Spinner>
+
+
 
             <TextView
                 android:layout_width="match_parent"
