@@ -13,10 +13,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".Buy"></activity>
+        <activity android:name=".Sell" />
+        <activity android:name=".UserDonate" />
+        <activity android:name=".RewardsActivity" />
+        <activity android:name=".UserHistory" />
+        <activity
+            android:name=".Profile"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".CharityHome"
             android:label="@string/title_activity_charity_home"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".CollectionHome"
             android:label="@string/title_activity_collection_home"
