@@ -1,9 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto">
+
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_add_medicine"
         android:orderInCategory="100"
-        android:title="@string/action_settings"
+        android:title="Add Medicine"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_view_users"
+        android:orderInCategory="100"
+        android:title="View Users"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_request_medicine"
+        android:orderInCategory="100"
+        android:title="Request Medicine"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_view_requests"
+        android:orderInCategory="100"
+        android:title="View Requests"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_view_medicine_sell"
+        android:orderInCategory="100"
+        android:title="View  medicine accept request"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_add_store"
+        android:orderInCategory="100"
+        android:title="Add Store details"
+        app:showAsAction="never" />
+
 </menu>

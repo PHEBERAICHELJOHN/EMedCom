@@ -3,27 +3,27 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_add_medicine"
+        android:id="@+id/action_edit_profile"
         android:orderInCategory="100"
-        android:title="Request for Medicine"
+        android:title="Edit Profile"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_view_char_req"
+        android:id="@+id/action_change_email"
         android:orderInCategory="100"
-        android:title="View Requests"
+        android:title="Change E-mail"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_request_medicine"
+        android:id="@+id/action_change_password"
         android:orderInCategory="100"
-        android:title="Request Medicine"
+        android:title="Change Password"
         app:showAsAction="never" />
 
     <item
-        android:id="@+id/action_edit_requests"
+        android:id="@+id/action_delete_account"
         android:orderInCategory="100"
-        android:title="View Requests"
+        android:title="Delete Account"
         app:showAsAction="never" />
 
 </menu>
