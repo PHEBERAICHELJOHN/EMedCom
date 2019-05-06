@@ -304,6 +304,7 @@ public class PredictionActivity extends AppCompatActivity {
 
         count.add(new spinner_count(84,"614"));
         count.add(new spinner_count(85,"621"));
+
         count.add(new spinner_count(86,"645"));
         count.add(new spinner_count(87,"646"));
         count.add(new spinner_count(88,"647"));

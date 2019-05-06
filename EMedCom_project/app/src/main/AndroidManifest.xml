@@ -13,7 +13,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".ForgetPassword"></activity>
+        <activity
+            android:name=".CharityHome"
+            android:label="@string/title_activity_charity_home"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
+        <activity
+            android:name=".CollectionHome"
+            android:label="@string/title_activity_collection_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ForgetPassword" />
         <activity android:name=".DeleteAccount" />
         <activity android:name=".OCRcolActivity" />
         <activity android:name=".PredictionActivity" />

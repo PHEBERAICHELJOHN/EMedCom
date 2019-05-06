@@ -32,6 +32,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.emedcom_project.CharityHome"
+            android:label="@string/title_activity_charity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.emedcom_project.CollectionHome"
+            android:label="@string/title_activity_collection_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.emedcom_project.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity android:name="com.example.emedcom_project.ForgetPassword" />
         <activity android:name="com.example.emedcom_project.DeleteAccount" />
         <activity android:name="com.example.emedcom_project.OCRcolActivity" />
