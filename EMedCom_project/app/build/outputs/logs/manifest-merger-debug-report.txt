@@ -254,7 +254,9 @@ ADDED from /home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app
 	android:name
 		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/src/main/AndroidManifest.xml:39:19-49
 activity#com.example.emedcom_project.PredictionActivity
-ADDED from /home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/src/main/AndroidManifest.xml:40:9-56
+ADDED from /home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/src/main/AndroidManifest.xml:40:9-105
+	android:parentActivityName
+		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/src/main/AndroidManifest.xml:40:54-102
 	android:name
 		ADDED from /home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/src/main/AndroidManifest.xml:40:19-53
 activity#com.example.emedcom_project.RegisterActivity

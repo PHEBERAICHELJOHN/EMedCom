@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -38,6 +39,13 @@ public class PredictionActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_prediction);
+
+        Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        toolbar.setTitle("District Prediction");
+        setSupportActionBar(toolbar);
+
+        getSupportActionBar().setDisplayShowHomeEnabled(true);
+        getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
         final int a = 15, b = 1, c = 1, d = 112, e = 3;
 
@@ -211,24 +219,24 @@ public class PredictionActivity extends AppCompatActivity {
         //spinner.setOnItemSelectedListener(this);
         // Spinner Drop down elements
         //List<String> categories = new ArrayList<String>();
-        count.add(new spinner_count(0,"2"));
+   /*     count.add(new spinner_count(0,"2")); --
         count.add(new spinner_count(1,"3"));
         count.add(new spinner_count(2,"5"));
         count.add(new spinner_count(3,"6"));
         count.add(new spinner_count(4,"7"));
         count.add(new spinner_count(5,"9"));
-        count.add(new spinner_count(6,"10"));
-        count.add(new spinner_count(7,"11"));
-        count.add(new spinner_count(8,"12"));
-        count.add(new spinner_count(9,"13"));
-        count.add(new spinner_count(10,"15"));
-        count.add(new spinner_count(11,"16"));
-        count.add(new spinner_count(12,"20"));
-        count.add(new spinner_count(13,"21"));
-        count.add(new spinner_count(14,"22"));
-        count.add(new spinner_count(15,"23"));
-        count.add(new spinner_count(16,"24"));
-        count.add(new spinner_count(17,"25"));
+        count.add(new spinner_count(6,"10")); --
+        count.add(new spinner_count(7,"11")); --
+        count.add(new spinner_count(8,"12")); --
+        count.add(new spinner_count(9,"13")); --
+        count.add(new spinner_count(10,"15")); --
+        count.add(new spinner_count(11,"16")); --
+        count.add(new spinner_count(12,"20")); --
+        count.add(new spinner_count(13,"21")); --
+        count.add(new spinner_count(14,"22")); --
+        count.add(new spinner_count(15,"23"));  --
+        count.add(new spinner_count(16,"24")); --
+        count.add(new spinner_count(17,"25")); --
         count.add(new spinner_count(18,"30"));
         count.add(new spinner_count(19,"31"));
         count.add(new spinner_count(20,"32"));
@@ -258,17 +266,17 @@ public class PredictionActivity extends AppCompatActivity {
         count.add(new spinner_count(44,"87"));
         count.add(new spinner_count(45,"98"));
 
-        count.add(new spinner_count(46,"120"));
-        count.add(new spinner_count(47,"123"));
-        count.add(new spinner_count(48,"124"));
-        count.add(new spinner_count(49,"125"));
+        count.add(new spinner_count(46,"120")); --
+        count.add(new spinner_count(47,"123")); --
+        count.add(new spinner_count(48,"124")); --
+        count.add(new spinner_count(49,"125"));  --
 
-        count.add(new spinner_count(50,"210"));
-        count.add(new spinner_count(51,"213"));
-        count.add(new spinner_count(52,"214"));
-        count.add(new spinner_count(53,"231"));
-        count.add(new spinner_count(54,"235"));
-        count.add(new spinner_count(55,"245"));
+        count.add(new spinner_count(50,"210")); --
+        count.add(new spinner_count(51,"213"));  --
+        count.add(new spinner_count(52,"214"));  --
+        count.add(new spinner_count(53,"231"));  --
+        count.add(new spinner_count(54,"235"));  --
+        count.add(new spinner_count(55,"245"));  --
 
         count.add(new spinner_count(56,"312"));
         count.add(new spinner_count(57,"320"));
@@ -336,7 +344,7 @@ public class PredictionActivity extends AppCompatActivity {
         count.add(new spinner_count(111,"988"));
 
         count.add(new spinner_count(112,"AIDS"));
-        count.add(new spinner_count(113,"AIDS"));
+        count.add(new spinner_count(113,"AIDS"));  */
 
 
 

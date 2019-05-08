@@ -129,9 +129,11 @@
                 {
                     "source": "/home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/src/main/res/values/colors.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
+                        "startLines": "-1,2,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,4,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,55,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endColumns": "-1,46,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "endOffsets": "-1,97,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "192,193,194,195,196,197,198,199,200,201",
@@ -189,11 +191,9 @@
                 {
                     "source": "/home/phebe/AndroidStudioProjects/EMedCom/EMedCom/EMedCom_project/app/src/main/res/values/strings.xml",
                     "from": {
-                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,11",
-                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,4",
-                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,664",
-                        "endColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,58",
-                        "endOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,718"
+                        "startLines": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startColumns": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1",
+                        "startOffsets": "-1,-1,-1,-1,-1,-1,-1,-1,-1,-1,-1"
                     },
                     "to": {
                         "startLines": "599,600,634,635,636,637,638,647,648,649,650",

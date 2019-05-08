@@ -32,8 +32,33 @@
         android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
+        <activity android:name="com.example.emedcom_project.Buy" />
+        <activity android:name="com.example.emedcom_project.Sell" />
+        <activity android:name="com.example.emedcom_project.UserDonate" />
+        <activity android:name="com.example.emedcom_project.RewardsActivity" />
+        <activity android:name="com.example.emedcom_project.UserHistory" />
+        <activity
+            android:name="com.example.emedcom_project.Profile"
+            android:label="@string/title_activity_profile"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.emedcom_project.CharityHome"
+            android:label="@string/title_activity_charity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.emedcom_project.CollectionHome"
+            android:label="@string/title_activity_collection_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.emedcom_project.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.example.emedcom_project.ForgetPassword" />
+        <activity android:name="com.example.emedcom_project.DeleteAccount" />
         <activity android:name="com.example.emedcom_project.OCRcolActivity" />
-        <activity android:name="com.example.emedcom_project.PredictionActivity" />
+        <activity
+            android:name="com.example.emedcom_project.PredictionActivity"
+            android:parentActivityName="com.example.emedcom_project.PredictionActivity" />
         <activity android:name="com.example.emedcom_project.RegisterActivity" />
         <activity android:name="com.example.emedcom_project.LoginActivity" />
         <activity android:name="com.example.emedcom_project.DashboardActivity" />
