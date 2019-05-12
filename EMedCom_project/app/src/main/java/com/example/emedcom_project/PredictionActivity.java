@@ -29,6 +29,8 @@ public class PredictionActivity extends AppCompatActivity {
 
     ArrayList<spinner_count> count = new ArrayList<>();
 
+    ArrayList<spinner_month> month = new ArrayList<>();
+
     Button b1 ;
 
     TextView t1;
@@ -126,6 +128,52 @@ public class PredictionActivity extends AppCompatActivity {
         });
 
         // 2
+        // source districts list
+        //drop down list of generic names
+        Spinner spinnermon = (Spinner) findViewById(R.id.month);
+
+        // Spinner click listener
+        //spinner.setOnItemSelectedListener(this);
+        // Spinner Drop down elements
+        //List<String> categories = new ArrayList<String>();
+        month.add(new spinner_month(0,"April"));
+        month.add(new spinner_month(1,"August"));
+        month.add(new spinner_month(2,"December"));
+        month.add(new spinner_month(3,"February"));
+        month.add(new spinner_month(4,"January"));
+        month.add(new spinner_month(5,"July"));
+        month.add(new spinner_month(6,"June"));
+        month.add(new spinner_month(7,"March"));
+        month.add(new spinner_month(8,"May"));
+        month.add(new spinner_month(9,"November"));
+        month.add(new spinner_month(10,"October"));
+        month.add(new spinner_month(11,"September"));
+
+        // Creating adapter for spinner
+        ArrayAdapter<spinner_month> dataAdaptermon = new ArrayAdapter<spinner_month>(this, android.R.layout.simple_spinner_dropdown_item, month);
+        // Drop down layout style - list view with radio button
+        dataAdaptermon.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+
+        // attaching data adapter to spinner
+        spinnermon.setAdapter(dataAdaptermon);
+
+
+        spinnermon.setOnItemSelectedListener(new AdapterView.OnItemSelectedListener() {
+            @Override
+            public void onItemSelected(AdapterView<?> parent, View view, int position, long id) {
+                // On selecting a spinner item
+                spinner_month months = (spinner_month) parent.getSelectedItem();
+                ((TextView) parent.getChildAt(0)).setTextColor(Color.rgb(76, 156, 210));
+                ((TextView) parent.getChildAt(0)).setTextSize(18);
+                Toast.makeText(getApplicationContext(), " "+months.getId()+"\n Selected "+months.getName(), Toast.LENGTH_SHORT).show();
+            }
+
+            @Override
+            public void onNothingSelected(AdapterView<?> parent) {
+            }
+        });
+
+        // 5
         // source districts list
         //drop down list of generic names
         Spinner spinnerdis = (Spinner) findViewById(R.id.source);
@@ -357,8 +405,6 @@ public class PredictionActivity extends AppCompatActivity {
             public void onNothingSelected(AdapterView<?> parent) {
             }
         });
-
-
 
     }
 }
