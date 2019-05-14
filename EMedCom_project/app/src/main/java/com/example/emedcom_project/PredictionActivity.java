@@ -35,7 +35,9 @@ public class PredictionActivity extends AppCompatActivity {
 
     TextView t1;
 
+    String[] IntegerArray = new String[12];
 
+    int a , b , c , d , e ;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -49,7 +51,6 @@ public class PredictionActivity extends AppCompatActivity {
         getSupportActionBar().setDisplayShowHomeEnabled(true);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
 
-        final int a = 15, b = 1, c = 1, d = 112, e = 3;
 
         b1 = (Button) findViewById(R.id.predict_btn);
 
@@ -60,12 +61,12 @@ public class PredictionActivity extends AppCompatActivity {
             public void onClick(View v) {
 
                 Ion.with(getApplicationContext())
-                        .load("http://192.168.0.106/emedcom/?action=Y&a="+a+"&b="+b+"&c="+c+"&d="+d+"&e="+e)
+                        .load("http://bangalore.tharun.me/emedcom/?action=Y&a="+a+"&b="+b+"&c="+c+"&d="+d+"&e="+e)
                         .asString()
                         .setCallback(new FutureCallback<String>() {
                             @Override
                             public void onCompleted(Exception e, String result) {
-
+                                //int q=Integer.parseInt(result);
                                 t1.setText(result);
 
                             }
@@ -74,6 +75,9 @@ public class PredictionActivity extends AppCompatActivity {
             }
         });
 
+        IntegerArray[0]="Aleppey";
+        IntegerArray[1]="Ernakulam";
+        IntegerArray[2]="Idukki";
 
         // 1
         //drop down list of generic names
@@ -119,7 +123,9 @@ public class PredictionActivity extends AppCompatActivity {
                 spinner_generic_name generic = (spinner_generic_name) parent.getSelectedItem();
                 ((TextView) parent.getChildAt(0)).setTextColor(Color.rgb(76, 156, 210));
                 ((TextView) parent.getChildAt(0)).setTextSize(18);
-                Toast.makeText(getApplicationContext(), " "+generic.getId()+"\nSelected "+generic.getName(), Toast.LENGTH_SHORT).show();
+                a=generic.getId();
+                //Toast.makeText(getApplicationContext(), " "+generic.getId()+"\nSelected "+generic.getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Selected "+generic.getName(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -165,7 +171,9 @@ public class PredictionActivity extends AppCompatActivity {
                 spinner_month months = (spinner_month) parent.getSelectedItem();
                 ((TextView) parent.getChildAt(0)).setTextColor(Color.rgb(76, 156, 210));
                 ((TextView) parent.getChildAt(0)).setTextSize(18);
-                Toast.makeText(getApplicationContext(), " "+months.getId()+"\n Selected "+months.getName(), Toast.LENGTH_SHORT).show();
+                e=months.getId();
+                // Toast.makeText(getApplicationContext(), " "+months.getId()+"\n Selected "+months.getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Selected "+months.getName(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -212,7 +220,9 @@ public class PredictionActivity extends AppCompatActivity {
                 spinner_source_districts districts = (spinner_source_districts) parent.getSelectedItem();
                 ((TextView) parent.getChildAt(0)).setTextColor(Color.rgb(76, 156, 210));
                 ((TextView) parent.getChildAt(0)).setTextSize(18);
-                Toast.makeText(getApplicationContext(), " "+districts.getId()+"\n Selected "+districts.getName(), Toast.LENGTH_SHORT).show();
+                c=districts.getId();
+                // Toast.makeText(getApplicationContext(), " "+districts.getId()+"\n Selected "+districts.getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Selected "+districts.getName(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -251,7 +261,9 @@ public class PredictionActivity extends AppCompatActivity {
                 spinner_condition_name condi = (spinner_condition_name) parent.getSelectedItem();
                 ((TextView) parent.getChildAt(0)).setTextColor(Color.rgb(76, 156, 210));
                 ((TextView) parent.getChildAt(0)).setTextSize(18);
-                Toast.makeText(getApplicationContext(), " "+condi.getId()+"\nSelected "+condi.getName(), Toast.LENGTH_SHORT).show();
+                b=condi.getId();
+                // Toast.makeText(getApplicationContext(), " "+condi.getId()+"\nSelected "+condi.getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Selected "+condi.getName(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -398,7 +410,9 @@ public class PredictionActivity extends AppCompatActivity {
                 spinner_count count = (spinner_count) parent.getSelectedItem();
                 ((TextView) parent.getChildAt(0)).setTextColor(Color.rgb(76, 156, 210));
                 ((TextView) parent.getChildAt(0)).setTextSize(18);
-                Toast.makeText(getApplicationContext(), " "+count.getId()+"\nSelected "+count.getName(), Toast.LENGTH_SHORT).show();
+                d=count.getId();
+                //Toast.makeText(getApplicationContext(), " "+count.getId()+"\nSelected "+count.getName(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(), "Selected "+count.getName(), Toast.LENGTH_SHORT).show();
             }
 
             @Override
@@ -408,3 +422,4 @@ public class PredictionActivity extends AppCompatActivity {
 
     }
 }
+

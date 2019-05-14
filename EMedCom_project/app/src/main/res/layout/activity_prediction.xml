@@ -97,31 +97,43 @@
                 android:fontFamily="sans-serif">
             </Spinner>
 
-        <!--    <ProgressBar
-                android:id="@+id/regProgressBar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content" />  -->
+            <!--    <ProgressBar
+                    android:id="@+id/regProgressBar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />  -->
 
             <Button
                 android:id="@+id/predict_btn"
-                android:layout_width="match_parent"
+                android:layout_width="250dp"
+                android:layout_marginLeft="43dp"
                 android:layout_height="wrap_content"
                 android:text="PREDICT"
+                android:textSize="16dp"
                 android:textColor="@android:color/white"
                 android:background="@drawable/dash_btn_1"
                 android:textStyle="bold"/>
 
             <TextView
 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:layout_gravity="center"
+                android:textColor="@android:color/holo_blue_dark"/>
+
+            <TextView
+
                 android:id="@+id/print_result"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:textSize="21dp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="70dp"
                 android:textColor="@android:color/holo_blue_dark"/>
 
 
         </LinearLayout>
 
     </RelativeLayout>
-
 
 </LinearLayout>
