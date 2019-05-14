@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Buy"></activity>
+        <activity android:name=".AboutUsActivity"></activity>
+        <activity android:name=".Buy" />
         <activity android:name=".Sell" />
         <activity android:name=".UserDonate" />
         <activity android:name=".RewardsActivity" />
@@ -37,7 +38,9 @@
         <activity android:name=".ForgetPassword" />
         <activity android:name=".DeleteAccount" />
         <activity android:name=".OCRcolActivity" />
-        <activity android:name=".PredictionActivity" android:parentActivityName=".PredictionActivity" />
+        <activity
+            android:name=".PredictionActivity"
+            android:parentActivityName=".PredictionActivity" />
         <activity android:name=".RegisterActivity" />
         <activity android:name=".LoginActivity" />
         <activity android:name=".DashboardActivity" />

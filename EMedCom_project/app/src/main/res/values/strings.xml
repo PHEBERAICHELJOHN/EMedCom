@@ -10,4 +10,19 @@
     <string name="title_activity_collection_home">CollectionHome</string>
     <string name="title_activity_charity_home">CharityHome</string>
     <string name="title_activity_profile">Profile</string>
+    <string name="aboutUs">Reducing medicines waste will improve quality and save resources. There
+
+are a need and an opportunity for strong leadership from pharmacists to help reduce medicines waste.
+        Reducing unnecessary dispensing and supply of medicines is an important way of reducing waste. Wasted medicine is everyone’s responsibility
+and there are small changes you can make to help reduce the amount of medicine being wasted. When possible, try to make these medicines reusable. It is everyone’s
+responsibility.Medical wastes are highly hazardous and put people under risk of fatal diseases. The generation of medical waste has been increasing in quantity and va-
+riety, due to the wide acceptance of single-use disposable items. In this project, waste minimization and reusing are practised, thus significant amounts of medical
+wastes are to be used. This is a useful project for everyone who would like to donate or even sell their unused medicines to poor people. The collection centre collects
+medicine and distributes it to the charity organisations. Often charity organisations can request their needed medicines. Collection centre also exchanges their medicines
+between districts.
+It includes a huge amount of data being transferred each day, therefore district prediction is included. The main aim is to predict the district where a
+particular medicine is most used. It shows which district needs a particular medicine more from the exchange of medicines in between collection centres. The transferred
+data is taken as dataset and is cleaned. Now, the feature data is extracted. A set of data is taken for training and testing. Then a suitable model along with cross-
+validation is applied to get more accurate results. It uses kNN and decision tree classifier to find the nearest neighbouring clusters. The accuracy is measured and
+output is predicted.</string>
 </resources>
